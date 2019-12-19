@@ -1,0 +1,2282 @@
+{
+    "id": "98a2e82a9c51225b7ac15a129e22a3a6",
+    "name": "BMC Software Merged API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "c9b9b8d6eecd75eaf489a925ec56a464",
+            "name": "Account Resource",
+            "url": "https\/account",
+            "description": "Information about the authorized account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "67ac2e764f86d87a61d682f9d5cfbfee",
+            "name": "Events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to}",
+            "url": "https\/events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to} ",
+            "description": "Gets a list of events for the current user.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "bf97768ea0e15c9348f50ca7d405c02c",
+            "name": "Custom Events",
+            "url": "https\/custom_events ",
+            "description": "Creates new custom event.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "afb65b85965fb5ab90945830b5dbe732",
+            "name": "Custom Events",
+            "url": "https\/custom_events\/all?fromUtc={fromUtc}&amp;toUtc={toUtc} ",
+            "description": "Gets all custom events using optional filter.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "8301adf2c3c9d45b32e4eb66752a8bdc",
+            "name": "Custom_events {id}",
+            "url": "https\/custom_events\/{id} ",
+            "description": "Gets custom event by Id.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "5d1ac239678f2cc9bda58557360e800d",
+            "name": "Custom_events {id}",
+            "url": "https\/custom_events\/{id} ",
+            "description": "Updates custom event.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d4a1978df4ede5b5e97abeeee7ffaf47",
+            "name": "Custom_events {id}",
+            "url": "https\/custom_events\/{id} ",
+            "description": "Deletes custom event.\t\t\t",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " DELETE ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "3dc48c288f85aeda39aa28956d5d08d8",
+            "name": "Get AWS Integration Status",
+            "url": "https\/v1\/account\/aws\/status",
+            "description": " Gets AWS status",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "19d8d52f70108adff34ddde8130824db",
+            "name": "Get all available action types",
+            "url": "https\/v1\/actions",
+            "description": "Gets all known action types",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "80c50e5b1297874e264ddd77f2ef4e13",
+            "name": "Get all installed actions",
+            "url": "https\/v1\/actions\/installed",
+            "description": "Gets all actions that are installed for the project",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b0cb77580c1da6787a93ae621eee3771",
+            "name": "Install action",
+            "url": "https\/v1\/actions\/installed",
+            "description": "Installs an action",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "4254edaf6bdbcefd309e030cd4b34a4f",
+            "name": "Get details of an installed action",
+            "url": "https\/v1\/actions\/installed\/:actionId",
+            "description": "Gets a single action definition",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "actionId\nName of plugin",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "1a7c05689e49b5e4caed48a1ff1735f3",
+            "name": "Uninstall action",
+            "url": "https\/v1\/actions\/installed\/:actionId",
+            "description": "Uninstalls an action and remove it from the associated alarms(s).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "0cf93ebb4e544dcdf3ce8ebe221d3933",
+            "name": "Get all alarms using an action",
+            "url": "https\/v1\/actions\/installed\/:actionId\/alarms",
+            "description": "Get alarms that are using this action installed for the project",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d369fe3758365ab7021c667653f8c242",
+            "name": "Get action",
+            "url": "https\/v1\/actions\/:action",
+            "description": "Gets a single action type",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "action\nName of plugin",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "4a55b7cbe70cbe1542523ffe2ef489d5",
+            "name": "Get All Alarms",
+            "url": "https\/v1\/alarms",
+            "description": " Get all of the Alarms",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "9aefbbc2b4237d85d99242e0e2caedfb",
+            "name": "Create Alarm",
+            "url": "https\/v1\/alarms",
+            "description": "Create an Alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "The name of the alarm",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "f0675c98d0e6b456857bf037206426b1",
+            "name": "Get Alarm by Id",
+            "url": "https\/v1\/alarm\/:alarmId",
+            "description": "Retrieves a single alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "alarmId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "232475a95398fd8c13fd32d6adf90a7d",
+            "name": "Update Alarm",
+            "url": "https\/v1\/alarm\/:alarmId",
+            "description": " Update an Alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "The name of the alarm",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "a7b8bb8cf05855c1a18afc6e15a04aa9",
+            "name": "Delete Alarm",
+            "url": "https\/v1\/alarm\/:alarmId",
+            "description": "Deletes an alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "alarmId\nThe alarm to delete",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "9705e323ad7459ca44cb22c60ad05c01",
+            "name": "Get Alarms by Name",
+            "url": "https\/v1\/alarms\/search",
+            "description": "Retrieves alarms by name",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "alarmName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d2c08d69ca59f7e6a105f73bee08b18a",
+            "name": "Create Alarm",
+            "url": "https\/v2\/alarms",
+            "description": "Create an Alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "1a761427450db37d707e21a872dee07c",
+            "name": "Get All Alarms",
+            "url": "https\/v2\/alarms",
+            "description": "Get all of the Alarms",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "5b5a50f61c3978b769f90ab980d68eaf",
+            "name": "Update Alarm",
+            "url": "https\/v2\/alarms\/:alarmId",
+            "description": "Updates an alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "alarmId integer\nThe alarm to update",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "e9dc504682ae0e9e95012df7fded1e8f",
+            "name": "Get Alarm by Id",
+            "url": "https\/v2\/alarms\/:alarmId",
+            "description": "Retrieves a single alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "alarmId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "f0abb071e0b57180f8795beeadc24cd9",
+            "name": "Delete Alarm",
+            "url": "https\/v2\/alarms\/:alarmId",
+            "description": "Deletes an alarm",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "alarmId\nThe alarm to delete",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "42e78db383ed7e0d182d924d114358ad",
+            "name": "Perform batch",
+            "url": "https\/v1\/batch",
+            "description": "Allows making an arbitrary set of API calls.    All calls are made in parallel.\nThe query string parameter <em>?series<\/em> can be used to override this behavior and call the API in series stopping at the first error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d7a4fc516a09812b2d55661a9e313aca",
+            "name": "Delete Mobile Device",
+            "url": "https\/v1\/mobile-devices\/:userDeviceId",
+            "description": "Deletes a device from a user",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "userDeviceId\nThe user device ID to delete",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "5c25a615431838912ebaba41d93e52bd",
+            "name": "Delete Account Mobile Device",
+            "url": "https\/v1\/account\/mobile-devices\/:accountDeviceId",
+            "description": "Deletes a device from an account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "accountDeviceId\nThe account device ID to delete",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "c02a03414f2a06f41e9b5cb397587c7d",
+            "name": "Get All Account Mobile Devices",
+            "url": "https\/v1\/account\/mobile-devices",
+            "description": "Gets all of the devices for an account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "649d7e20101ac675020ece0f019bcdaa",
+            "name": "List dataset",
+            "url": "https\/v1\/datasets\/*",
+            "description": " *",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "1980dd7fe32068188ed6034fea6a5c4a",
+            "name": "Create event",
+            "url": "https\/v1\/events",
+            "description": "Creates an event. Every event occurrence is persisted to the database as a RawEvent. Based on the EventFingerprint, a new Event will be created or an existing one will be de-duplicated.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "f0a112ea02608b8723083b887875c72d",
+            "name": "List events",
+            "url": "https\/v1\/events",
+            "description": "Searches for events in the specified organization.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "19b25b6b639c5622c2477a475434ea97",
+            "name": "List raw events",
+            "url": "https\/v1\/events\/raw",
+            "description": "Queries all event occurrences (raw events) for the specified organization.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "4bbb887a6cd8f5f69f5b3fddf20ed178",
+            "name": "Get event",
+            "url": "https\/v1\/events\/:event_id",
+            "description": "Returns the event with the specified event id from the database.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "ab1cc5646326a94da92c6c23fea2f3ca",
+            "name": "Get raw events",
+            "url": "https\/v1\/events\/:event_id\/raw",
+            "description": "Returns all of the event occurrences (raw events) for the specified event.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "695ea5db50ecd4bc7fd8aa93b1025158",
+            "name": "Get All Hostgroups",
+            "url": "https\/v1\/hostgroups",
+            "description": "Get all of the Hostgroups in your account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "42d2fc3f26116345673cb6b9b507ae29",
+            "name": "Create Hostgroup",
+            "url": "https\/v1\/hostgroups",
+            "description": "Create a Hostgroup",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "ca4ee3a3fbd192f0ec314b83caec253a",
+            "name": "Search Hostgroups",
+            "url": "https\/v1\/hostgroups\/search",
+            "description": "Searches the hostgroups in your account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name\nThe hostgroup name to search for.  Currently supported search parameters",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "e856600d2bc3ddc29b378b54ba57437f",
+            "name": "Get Hostgroup by Id",
+            "url": "https\/v1\/hostgroups\/:hostgroupId",
+            "description": "Retrieves a single hostgroup by its id",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "hostgroupId\nThe Id of the hostgroup you are requesting",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "fb68eda61e2f6e508e7bb98251f416a0",
+            "name": "Update Hostgroup",
+            "url": "https\/v1\/hostgroups\/:hostgroupId",
+            "description": "Update a Hostgroup",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "6463c5d88289bfffc043fb7ee48bcfe7",
+            "name": "Delete Hostgroup",
+            "url": "https\/v1\/hostgroups\/:hostgroupId",
+            "description": "Delete an hostgroup",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "hostgroupId\nThe hostgroup to delete\nforceRemove\nRemove the hostgroup, even if it&#39;s being used by a dashboard or alarm",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "2529a40ea735db5be6431f4893d7fdf6",
+            "name": "Registration",
+            "url": "https\/v1\/meter\/:meterName\/registration",
+            "description": "Register a Meter with TrueSight Pulse",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "meterVersion",
+                    "description": "What version of the Meter is running, ex. &quot;3.0.0-1&quot;",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "18d961383747d50f0d15f6ecb1820be4",
+            "name": "Add measures",
+            "url": "https\/v1\/measurements",
+            "description": "Adds measurement readings to the data store.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "source",
+                    "description": "The source of the metric",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "c51b832207cb8c8e610b45b38d36c580",
+            "name": "Create metric",
+            "url": "https\/v1\/metrics",
+            "description": "Creates a new metric",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name\nName of the metric, must be globally unique, recommended that you add your own namespace",
+                    "description": "type\nType of metric, could be a device metric, a plugin metric or any arbitrary type",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d721347f695a60e636726cb28eef59d4",
+            "name": "Get Metrics",
+            "url": "https\/v1\/metrics",
+            "description": "Retrieves the list of metrics in a project.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b9c76e571f92541adc2f8199e34aea4e",
+            "name": "Create metrics batch",
+            "url": "https\/v1\/batch\/metrics",
+            "description": "Creates metrics, but in a batch",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "ab0ae9523ed2a8cee9eb3a9b93774405",
+            "name": "Update metrics batch",
+            "url": "https\/v1\/batch\/metrics",
+            "description": "Updates a batch of metrics",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "type\nType of metric, could be a device metric, a plugin metric or any arbitrary type",
+                    "description": "description\nDescription of the metric",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "ac2e0fd5af7ba8ff8b26830f9f135aa3",
+            "name": "Get measures",
+            "url": "https\/v1\/measurements\/:metric",
+            "description": "Retrieves measurement readings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "16cce9244dda84b5f3c96ed778e5882c",
+            "name": "Get measures batch",
+            "url": "https\/v1\/measurementsBatch",
+            "description": "Same as \/v1\/measurements\/:metric except that an array of query objects are passed in the body.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b52851ab21a296a56daddfc0565ec692",
+            "name": "Remove metric",
+            "url": "https\/v1\/metrics\/:metric",
+            "description": " Removes a metric from the account.\n Note that a metric will not deleted if it has been alarmed unless that <em>removeAlarms<\/em>\n flag is added.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "4872c7b89368bab4f34c7cb390eb6d5d",
+            "name": "Get actions for a dashboard",
+            "url": "https\/v1\/metrics\/dashactions\/:dashboardSetId",
+            "description": " Retrieves the needed configuration changes for a dashboard\n Returns an an array of objects, each has the following properties:",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "ede7f5a69d01b17bac243e1735e4f047",
+            "name": "Perform dashboard actions",
+            "url": "https\/v1\/metrics\/dashactions\/:dashboardSetId",
+            "description": " Performs necessary actions for a dashboard.\n Only enables or adds metrics at this time.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "475138b2257609068f5353bfa395e573",
+            "name": "Update metric",
+            "url": "https\/v1\/metrics\/:metricName",
+            "description": "Updates a metric",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "type\nType of metric, could be a device metric, a plugin metric or any arbitrary type",
+                    "description": "description\nDescription of the metric",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "bb13a217ff9f5200592d7310ded962d0",
+            "name": "Get all plugins",
+            "url": "https\/v1\/plugins",
+            "description": "Gets all known plugin definitions",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "cd3076e06693293ecaa3561c341c0290",
+            "name": "Get plugin components",
+            "url": "https\/v1\/plugins\/:plugin\/components",
+            "description": "Finds the components associated with an installed plugin including metrics and dashboards",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "1a0fc6843a2392371085b40668af19f1",
+            "name": "Get installed plugins",
+            "url": "https\/v1\/plugins\/installed",
+            "description": "Gets plugins that are installed for the project",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "0249a93dd52bec16d9834034cfddcd7a",
+            "name": "Install or update plugin",
+            "url": "https\/v1\/plugins\/installed\/:plugin",
+            "description": "Installs a plugin",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "a083da3def2c9ad5e7aa8ab210925753",
+            "name": "Uninstall plugin",
+            "url": "https\/v1\/plugins\/installed\/:plugin",
+            "description": "Uninstalls a plugin and optionally removes related dashboard(s) and metric(s).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "e06f50fe974d9dec9cebc08cd69da191",
+            "name": "Add private plugin",
+            "url": "https\/v1\/plugins\/private\/:plugin\/:org\/:repo",
+            "description": "Adds or updates a private plugin.\nA plugin exists as a repository in Github.\nBy adding a private plugin the plugin will appear on your settings -&gt; plugins tab just like any other plugin which\ncan then be installed and\/or added to a relay.\nIf a private plugin has the same name as an existing plugin it will override the existing plugin within your account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "plugin\nName of the plugin\norg\nGithub organization or user owning the plugin\nrepo\nGithub repository name for plugin",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "7f46274da4d57d0bbca75f326a48db0f",
+            "name": "Remove private plugin",
+            "url": "https\/v1\/plugins\/private\/:plugin",
+            "description": "Removes a private plugin from your account. Use this function after adding a private plugin to make your private\nplugin disappear from available plugins in your settings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "plugin\nName of plugin to remove",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "636c41f1487d100bc9110cf398a30e0a",
+            "name": "Get plugin",
+            "url": "https\/v1\/plugins\/:plugin",
+            "description": "Gets a single plugin definition",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "plugin\nName of plugin",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b58f1fb2854bbb3381ef1e9bdadd9945",
+            "name": "Set Relay Heartbeat",
+            "url": "https\/v1\/relays\/heartbeat",
+            "description": "Updates the &#39;lastHeardFrom&#39; field of the relay configuration\nReturns the current system time in UNIX epoch of server.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "4f40f5b66fdf44e2f61bcfa74374488d",
+            "name": "Get All Relay Configurations",
+            "url": "https\/v1\/relays",
+            "description": "Gets the configurations for all visible relays",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "36ab1b1b84982b202fa30369dd03b92b",
+            "name": "Get Relay Configuration",
+            "url": "https\/v1\/relays\/:relay\/config",
+            "description": "Retrieves config for a relay host if changed\nIf no timestamp specified, configuration data is always returned\nIf config has not changed the string &#39;not-modified&#39; is returned",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "df38d2e38e691e160da561d2650eaa5b",
+            "name": "Set Relay Configuration",
+            "url": "https\/v1\/relays\/:relay\/config",
+            "description": " Stores configuration for a relay.\n The relay will gather the configuration on the next poll and reconfigure itself as needed.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b74b4273e4e83428ccb8a42b1409d377",
+            "name": "Toggle relay",
+            "url": "https\/v1\/relays\/:relay\/toggle",
+            "description": "Set a relay to be disabled or enabled",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "disabled",
+                    "description": "true or false",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "relay\nName of relay to toggle",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "005ab7e021edf7334417b7c9fd013485",
+            "name": "Toggle relay plugin",
+            "url": "https\/v1\/relays\/:relay\/togglePlugin",
+            "description": "Sets a relay plugin to be disabled or enabled",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "plugin",
+                    "description": "Name of plugin",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "1b61d713b6ce477ee42da735e376535c",
+            "name": "Add relay output",
+            "url": "https\/v1\/relays\/:relay\/output",
+            "description": "Adds output messages to the relay.\nUsed by the relay to communicate output from execution and commands",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "cad2176bfca3bf22881be74c9cd6f2d6",
+            "name": "Clear relay output",
+            "url": "https\/v1\/relays\/:relay\/output",
+            "description": "Wipes the logged output from the relay up to present.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "34e17cf00306aa3db7039c4ba8c334ae",
+            "name": "Get relay output",
+            "url": "https\/v1\/relays\/:relay\/output\/:since",
+            "description": "Queries for relay output messages.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "f5e43fa29dfedcfe0219b2077047fd74",
+            "name": "Remove Old Sources By Name",
+            "url": "https\/v1\/sources\/byName",
+            "description": "Remove Old Sources from your account by using a list of names",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "names",
+                    "description": "An array of source names to delete",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "a7ff18843bcefc752ed03fe6625ed541",
+            "name": "Get all source information",
+            "url": "https\/v1\/account\/sources\/:lastModified?",
+            "description": " Gets all source (host + data stream) information",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "21f50ab6460acbc10030a336731c1613",
+            "name": "Set source metadata",
+            "url": "https\/v1\/account\/sources",
+            "description": " Sets one or more source metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "a1f33904735a80a9f58feeee2eba8ef8",
+            "name": "Get list of active metrics",
+            "url": "https\/metrics",
+            "description": "\n          Get the list of actively reporting metrics from a given time until now. This endpoint is not available in the Python and Ruby libraries.\n        ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "[[POSIX_timestamp, numeric_value], ...]",
+                    "description": "\n              \n              Note that the timestamp should be in seconds, must be current, and the numeric value is a 32bit float gauge-type value.\n            \n          ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "3c6db0a68a23d1feb0d0b7b4c00d9fd3",
+            "name": "Post an Event",
+            "url": "https\/api\/v1\/events",
+            "description": "\n          This end point allows you to post events to the stream. You can tag them, set priority and event aggregate them with other events.\n        ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "7bbd88d92c4b46f0a8387677a9c28210",
+            "name": "Get Actions (Alerts) List",
+            "url": "https\n    \/api\/{version}\/actions",
+            "description": "\n    Returns a list of actions (alerts) that have been generated for your account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "from",
+                    "description": "Only include actions generated later than this timestamp. Format is UNIX time.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "Only include actions generated prior to this timestamp. Format is UNIX time.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Limits the number of returned results to the specified quantity.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "Offset for listing.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "checkids",
+                    "description": "Comma-separated list of check identifiers. Limit results to actions generated from these checks.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "contactids",
+                    "description": "Comma-separated list of contact identifiers. Limit results to actions sent to these contacts.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "Comma-separated list of statuses. Limit results to actions with these statuses.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "via",
+                    "description": "Comma-separated list of via mediums. Limit results to actions with these mediums.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "cc1ab8364d2a259411dd1c49e0f51c93",
+            "name": "Available metrics",
+            "url": "https\/metrics\/definitions",
+            "description": "Determine which metrics are available to return historical data for, for a specific subject (device or service) over a specific time range.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subjectId",
+                    "description": "The ID of the subject to get the definitions for, e.g. a device ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start",
+                    "description": "The UTC date string for the start time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T00:00:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "end",
+                    "description": "The UTC date string for the end time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T23:59:59Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "411f3fdc4fc13ea05de6cb6e11a9263d",
+            "name": "Dynamic metrics",
+            "url": "https\/metrics\/dynamicgraphs\/",
+            "description": "Return historical metrics data, for a devices and\/or services that match a search or regex style inventory filter search over a specific time range.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "inventoryFilter",
+                    "description": "A regular expression that will return all devices or services that match the pattern.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ids",
+                    "description": "List of inventory IDs",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "names",
+                    "description": "Human-readable names of a device or service",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start",
+                    "description": "The UTC date string for the start time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T00:00:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "end",
+                    "description": "The UTC date string for the end time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T23:59:59Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Specify whether to return only devices, services or all.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b4a0521e594057a3e212b6923db55e20",
+            "name": "Create Action",
+            "url": "https\/actions",
+            "description": "Create a new Action.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "action_name\n        \n        \n            required\n            Display name for the Action.\n        \n    \n    \n        \n        action_url\n        \n        \n            required\n            URL to be invoked for action execution.\n        \n    \n    \n ",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "cebdafea9bf87bd993d3f46a133018a0",
+            "name": "List Actions",
+            "url": "https\/actions",
+            "description": "List of all Actions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "maintenance_id\n        \n        \n            string\n            Unique ID generated by the server. This can be used as an identifier.\n        \n                \n    \n        \n        display_name\n        \n        \n            string\n            Displa",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        },
+        {
+            "id": "a704c9739ff6ce0fd8d13771d2103c9d",
+            "name": "Update Action",
+            "url": "https\/actions\/{action_id}",
+            "description": "Update an existing Action.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "action_name\n        \n        \n            required\n            Display name for the Action.\n        \n    \n    \n        \n        action_url\n        \n        \n            required\n            URL to be invoked for action execution.\n        \n    \n    \n ",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "rawModeData": ""
+        }
+    ]
+}
