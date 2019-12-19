@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Events API",
+        "description": "The Events API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.truesight.bmc.com\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
