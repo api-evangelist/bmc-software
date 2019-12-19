@@ -1,0 +1,132 @@
+{
+    "name": "BMC Software",
+    "description": "Transform your digital enterprise with BMC IT solutions. From mainframe to cloud to mobile, we???ll help you drive innovation and industrial efficiency.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/713-bmc-software.jpg",
+    "tags": [
+        "api provider",
+        "api service provider",
+        "applications",
+        "devops",
+        "have api",
+        "isp",
+        "monitoring",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/bmc-software\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Events API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/713-bmc-software.jpg",
+            "humanURL": "http:\/\/www.bmc.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/events-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/events-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/events-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "BMC Software Merged API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/713-bmc-software.jpg",
+            "humanURL": "http:\/\/www.bmc.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/bmc-software-merged-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/bmc-software-merged-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/bmc-software-merged-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.bmc.com\/blogs"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/BmcBlogs"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/bmc"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/docs.bmc.com\/docs\/dashboard.action"
+        },
+        {
+            "type": "Email",
+            "url": "customer_support@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "NA_Accounts_Payable@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "Collections_NA@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "education@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "investor@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "global_security@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "Compliance_EthicsOffice@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "26Ethics@bmc.com"
+        },
+        {
+            "type": "Email",
+            "url": "Community_Relations@bmc.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/bmcsoftware"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/bmcsoftware"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.bmc.com"
+        }
+    ]
+}
