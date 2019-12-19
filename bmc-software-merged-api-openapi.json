@@ -1,0 +1,996 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "BMC Software Merged API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "https"
+    ],
+    "paths": {
+        "\/account": {
+            "get": {
+                "summary": "Account Resource",
+                "description": "Information about the authorized account.",
+                "operationId": "InformationAboutTheAuthorizedAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to} ": {
+            " GET ": {
+                "summary": "Events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to}",
+                "description": "Gets a list of events for the current user.\t\t\t",
+                "operationId": "EventsmessagemessageampseverityseverityamptimestampUtcFromtimestampUtcFromamptimestampUtcToti",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/custom_events ": {
+            " POST ": {
+                "summary": "Custom Events",
+                "description": "Creates new custom event.\t\t\t",
+                "operationId": "CustomEvents",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/custom_events\/all?fromUtc={fromUtc}&amp;toUtc={toUtc} ": {
+            " GET ": {
+                "summary": "Custom Events",
+                "description": "Gets all custom events using optional filter.\t\t\t",
+                "operationId": "CustomEventsAllfromutcfromutcamptoutctoutc",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/custom_events\/{id} ": {
+            " GET ": {
+                "summary": "Custom_events {id}",
+                "description": "Gets custom event by Id.\t\t\t",
+                "operationId": "CustomEventsId",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " PUT ": {
+                "summary": "Custom_events {id}",
+                "description": "Updates custom event.\t\t\t",
+                "operationId": "CustomEventsId",
+                "deprecated": 0,
+                "parameters": []
+            },
+            " DELETE ": {
+                "summary": "Custom_events {id}",
+                "description": "Deletes custom event.\t\t\t",
+                "operationId": "CustomEventsId",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/account\/aws\/status": {
+            "GET": {
+                "summary": "Get AWS Integration Status",
+                "description": " Gets AWS status",
+                "operationId": "GetAwsIntegrationStatus",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/actions": {
+            "GET": {
+                "summary": "Get all available action types",
+                "description": "Gets all known action types",
+                "operationId": "GetAllAvailableActionTypes",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/actions\/installed": {
+            "GET": {
+                "summary": "Get all installed actions",
+                "description": "Gets all actions that are installed for the project",
+                "operationId": "GetAllInstalledActions",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "PUT": {
+                "summary": "Install action",
+                "description": "Installs an action",
+                "operationId": "InstallAction",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/actions\/installed\/:actionId": {
+            "GET": {
+                "summary": "Get details of an installed action",
+                "description": "Gets a single action definition",
+                "operationId": "GetDetailsOfAnInstalledAction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "actionId\nName of plugin",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "DELETE": {
+                "summary": "Uninstall action",
+                "description": "Uninstalls an action and remove it from the associated alarms(s).",
+                "operationId": "UninstallAction",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/actions\/installed\/:actionId\/alarms": {
+            "GET": {
+                "summary": "Get all alarms using an action",
+                "description": "Get alarms that are using this action installed for the project",
+                "operationId": "GetAllAlarmsUsingAnAction",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/actions\/:action": {
+            "GET": {
+                "summary": "Get action",
+                "description": "Gets a single action type",
+                "operationId": "GetAction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "action\nName of plugin",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/alarms": {
+            "GET": {
+                "summary": "Get All Alarms",
+                "description": " Get all of the Alarms",
+                "operationId": "GetAllAlarms",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "POST": {
+                "summary": "Create Alarm",
+                "description": "Create an Alarm",
+                "operationId": "CreateAlarm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "description": "The name of the alarm"
+                    }
+                ]
+            }
+        },
+        "\/v1\/alarm\/:alarmId": {
+            "GET": {
+                "summary": "Get Alarm by Id",
+                "description": "Retrieves a single alarm",
+                "operationId": "GetAlarmById",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "alarmId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "PUT": {
+                "summary": "Update Alarm",
+                "description": " Update an Alarm",
+                "operationId": "UpdateAlarm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "description": "The name of the alarm"
+                    }
+                ]
+            },
+            "DELETE": {
+                "summary": "Delete Alarm",
+                "description": "Deletes an alarm",
+                "operationId": "DeleteAlarm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "alarmId\nThe alarm to delete",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/alarms\/search": {
+            "GET": {
+                "summary": "Get Alarms by Name",
+                "description": "Retrieves alarms by name",
+                "operationId": "GetAlarmsByName",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "alarmName",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/alarms": {
+            "POST": {
+                "summary": "Create Alarm",
+                "description": "Create an Alarm",
+                "operationId": "CreateAlarm",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "Get All Alarms",
+                "description": "Get all of the Alarms",
+                "operationId": "GetAllAlarms",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v2\/alarms\/:alarmId": {
+            "PUT": {
+                "summary": "Update Alarm",
+                "description": "Updates an alarm",
+                "operationId": "UpdateAlarm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "alarmId integer\nThe alarm to update",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "GET": {
+                "summary": "Get Alarm by Id",
+                "description": "Retrieves a single alarm",
+                "operationId": "GetAlarmById",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "alarmId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "DELETE": {
+                "summary": "Delete Alarm",
+                "description": "Deletes an alarm",
+                "operationId": "DeleteAlarm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "alarmId\nThe alarm to delete",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/batch": {
+            "POST": {
+                "summary": "Perform batch",
+                "description": "Allows making an arbitrary set of API calls.    All calls are made in parallel.\nThe query string parameter <em>?series<\/em> can be used to override this behavior and call the API in series stopping at the first error.",
+                "operationId": "PerformBatch",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/mobile-devices\/:userDeviceId": {
+            "DELETE": {
+                "summary": "Delete Mobile Device",
+                "description": "Deletes a device from a user",
+                "operationId": "DeleteMobileDevice",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "userDeviceId\nThe user device ID to delete",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/account\/mobile-devices\/:accountDeviceId": {
+            "DELETE": {
+                "summary": "Delete Account Mobile Device",
+                "description": "Deletes a device from an account",
+                "operationId": "DeleteAccountMobileDevice",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "accountDeviceId\nThe account device ID to delete",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/account\/mobile-devices": {
+            "GET": {
+                "summary": "Get All Account Mobile Devices",
+                "description": "Gets all of the devices for an account",
+                "operationId": "GetAllAccountMobileDevices",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/datasets\/*": {
+            "GET": {
+                "summary": "List dataset",
+                "description": " *",
+                "operationId": "ListDataset",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/events": {
+            "POST": {
+                "summary": "Create event",
+                "description": "Creates an event. Every event occurrence is persisted to the database as a RawEvent. Based on the EventFingerprint, a new Event will be created or an existing one will be de-duplicated.",
+                "operationId": "CreateEvent",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "List events",
+                "description": "Searches for events in the specified organization.",
+                "operationId": "ListEvents",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/events\/raw": {
+            "GET": {
+                "summary": "List raw events",
+                "description": "Queries all event occurrences (raw events) for the specified organization.",
+                "operationId": "ListRawEvents",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/events\/:event_id": {
+            "GET": {
+                "summary": "Get event",
+                "description": "Returns the event with the specified event id from the database.",
+                "operationId": "GetEvent",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/events\/:event_id\/raw": {
+            "GET": {
+                "summary": "Get raw events",
+                "description": "Returns all of the event occurrences (raw events) for the specified event.",
+                "operationId": "GetRawEvents",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/hostgroups": {
+            "GET": {
+                "summary": "Get All Hostgroups",
+                "description": "Get all of the Hostgroups in your account",
+                "operationId": "GetAllHostgroups",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "POST": {
+                "summary": "Create Hostgroup",
+                "description": "Create a Hostgroup",
+                "operationId": "CreateHostgroup",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/hostgroups\/search": {
+            "GET": {
+                "summary": "Search Hostgroups",
+                "description": "Searches the hostgroups in your account",
+                "operationId": "SearchHostgroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name\nThe hostgroup name to search for.  Currently supported search parameters",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/hostgroups\/:hostgroupId": {
+            "GET": {
+                "summary": "Get Hostgroup by Id",
+                "description": "Retrieves a single hostgroup by its id",
+                "operationId": "GetHostgroupById",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "hostgroupId\nThe Id of the hostgroup you are requesting",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "PUT": {
+                "summary": "Update Hostgroup",
+                "description": "Update a Hostgroup",
+                "operationId": "UpdateHostgroup",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "DELETE": {
+                "summary": "Delete Hostgroup",
+                "description": "Delete an hostgroup",
+                "operationId": "DeleteHostgroup",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "hostgroupId\nThe hostgroup to delete\nforceRemove\nRemove the hostgroup, even if it&#39;s being used by a dashboard or alarm",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/meter\/:meterName\/registration": {
+            "POST": {
+                "summary": "Registration",
+                "description": "Register a Meter with TrueSight Pulse",
+                "operationId": "Registration",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "meterVersion",
+                        "in": "formData",
+                        "description": "What version of the Meter is running, ex. &quot;3.0.0-1&quot;"
+                    }
+                ]
+            }
+        },
+        "\/v1\/measurements": {
+            "POST": {
+                "summary": "Add measures",
+                "description": "Adds measurement readings to the data store.",
+                "operationId": "AddMeasures",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "formData",
+                        "description": "The source of the metric"
+                    }
+                ]
+            }
+        },
+        "\/v1\/metrics": {
+            "POST": {
+                "summary": "Create metric",
+                "description": "Creates a new metric",
+                "operationId": "CreateMetric",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name\nName of the metric, must be globally unique, recommended that you add your own namespace",
+                        "in": "formData",
+                        "description": "type\nType of metric, could be a device metric, a plugin metric or any arbitrary type"
+                    }
+                ]
+            },
+            "GET": {
+                "summary": "Get Metrics",
+                "description": "Retrieves the list of metrics in a project.",
+                "operationId": "GetMetrics",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/batch\/metrics": {
+            "POST": {
+                "summary": "Create metrics batch",
+                "description": "Creates metrics, but in a batch",
+                "operationId": "CreateMetricsBatch",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "PUT": {
+                "summary": "Update metrics batch",
+                "description": "Updates a batch of metrics",
+                "operationId": "UpdateMetricsBatch",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "type\nType of metric, could be a device metric, a plugin metric or any arbitrary type",
+                        "in": "formData",
+                        "description": "description\nDescription of the metric"
+                    }
+                ]
+            }
+        },
+        "\/v1\/measurements\/:metric": {
+            "GET": {
+                "summary": "Get measures",
+                "description": "Retrieves measurement readings.",
+                "operationId": "GetMeasures",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/measurementsBatch": {
+            "POST": {
+                "summary": "Get measures batch",
+                "description": "Same as \/v1\/measurements\/:metric except that an array of query objects are passed in the body.",
+                "operationId": "GetMeasuresBatch",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/metrics\/:metric": {
+            "DELETE": {
+                "summary": "Remove metric",
+                "description": " Removes a metric from the account.\n Note that a metric will not deleted if it has been alarmed unless that <em>removeAlarms<\/em>\n flag is added.",
+                "operationId": "RemoveMetric",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/metrics\/dashactions\/:dashboardSetId": {
+            "GET": {
+                "summary": "Get actions for a dashboard",
+                "description": " Retrieves the needed configuration changes for a dashboard\n Returns an an array of objects, each has the following properties:",
+                "operationId": "GetActionsForADashboard",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "POST": {
+                "summary": "Perform dashboard actions",
+                "description": " Performs necessary actions for a dashboard.\n Only enables or adds metrics at this time.",
+                "operationId": "PerformDashboardActions",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/metrics\/:metricName": {
+            "PUT": {
+                "summary": "Update metric",
+                "description": "Updates a metric",
+                "operationId": "UpdateMetric",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "type\nType of metric, could be a device metric, a plugin metric or any arbitrary type",
+                        "in": "formData",
+                        "description": "description\nDescription of the metric"
+                    }
+                ]
+            }
+        },
+        "\/v1\/plugins": {
+            "GET": {
+                "summary": "Get all plugins",
+                "description": "Gets all known plugin definitions",
+                "operationId": "GetAllPlugins",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/plugins\/:plugin\/components": {
+            "GET": {
+                "summary": "Get plugin components",
+                "description": "Finds the components associated with an installed plugin including metrics and dashboards",
+                "operationId": "GetPluginComponents",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/plugins\/installed": {
+            "GET": {
+                "summary": "Get installed plugins",
+                "description": "Gets plugins that are installed for the project",
+                "operationId": "GetInstalledPlugins",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/plugins\/installed\/:plugin": {
+            "PUT": {
+                "summary": "Install or update plugin",
+                "description": "Installs a plugin",
+                "operationId": "InstallOrUpdatePlugin",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "DELETE": {
+                "summary": "Uninstall plugin",
+                "description": "Uninstalls a plugin and optionally removes related dashboard(s) and metric(s).",
+                "operationId": "UninstallPlugin",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/plugins\/private\/:plugin\/:org\/:repo": {
+            "PUT": {
+                "summary": "Add private plugin",
+                "description": "Adds or updates a private plugin.\nA plugin exists as a repository in Github.\nBy adding a private plugin the plugin will appear on your settings -&gt; plugins tab just like any other plugin which\ncan then be installed and\/or added to a relay.\nIf a private plugin has the same name as an existing plugin it will override the existing plugin within your account.",
+                "operationId": "AddPrivatePlugin",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "plugin\nName of the plugin\norg\nGithub organization or user owning the plugin\nrepo\nGithub repository name for plugin",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/plugins\/private\/:plugin": {
+            "DELETE": {
+                "summary": "Remove private plugin",
+                "description": "Removes a private plugin from your account. Use this function after adding a private plugin to make your private\nplugin disappear from available plugins in your settings.",
+                "operationId": "RemovePrivatePlugin",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "plugin\nName of plugin to remove",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/plugins\/:plugin": {
+            "GET": {
+                "summary": "Get plugin",
+                "description": "Gets a single plugin definition",
+                "operationId": "GetPlugin",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "plugin\nName of plugin",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/relays\/heartbeat": {
+            "POST": {
+                "summary": "Set Relay Heartbeat",
+                "description": "Updates the &#39;lastHeardFrom&#39; field of the relay configuration\nReturns the current system time in UNIX epoch of server.",
+                "operationId": "SetRelayHeartbeat",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/relays": {
+            "GET": {
+                "summary": "Get All Relay Configurations",
+                "description": "Gets the configurations for all visible relays",
+                "operationId": "GetAllRelayConfigurations",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/relays\/:relay\/config": {
+            "GET": {
+                "summary": "Get Relay Configuration",
+                "description": "Retrieves config for a relay host if changed\nIf no timestamp specified, configuration data is always returned\nIf config has not changed the string &#39;not-modified&#39; is returned",
+                "operationId": "GetRelayConfiguration",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "PUT": {
+                "summary": "Set Relay Configuration",
+                "description": " Stores configuration for a relay.\n The relay will gather the configuration on the next poll and reconfigure itself as needed.",
+                "operationId": "SetRelayConfiguration",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/relays\/:relay\/toggle": {
+            "POST": {
+                "summary": "Toggle relay",
+                "description": "Set a relay to be disabled or enabled",
+                "operationId": "ToggleRelay",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "disabled",
+                        "in": "formData",
+                        "description": "true or false"
+                    },
+                    {
+                        "name": "relay\nName of relay to toggle",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/relays\/:relay\/togglePlugin": {
+            "POST": {
+                "summary": "Toggle relay plugin",
+                "description": "Sets a relay plugin to be disabled or enabled",
+                "operationId": "ToggleRelayPlugin",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "plugin",
+                        "in": "formData",
+                        "description": "Name of plugin"
+                    }
+                ]
+            }
+        },
+        "\/v1\/relays\/:relay\/output": {
+            "POST": {
+                "summary": "Add relay output",
+                "description": "Adds output messages to the relay.\nUsed by the relay to communicate output from execution and commands",
+                "operationId": "AddRelayOutput",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "DELETE": {
+                "summary": "Clear relay output",
+                "description": "Wipes the logged output from the relay up to present.",
+                "operationId": "ClearRelayOutput",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/relays\/:relay\/output\/:since": {
+            "GET": {
+                "summary": "Get relay output",
+                "description": "Queries for relay output messages.",
+                "operationId": "GetRelayOutput",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/sources\/byName": {
+            "DELETE": {
+                "summary": "Remove Old Sources By Name",
+                "description": "Remove Old Sources from your account by using a list of names",
+                "operationId": "RemoveOldSourcesByName",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "names",
+                        "in": "formData",
+                        "description": "An array of source names to delete"
+                    }
+                ]
+            }
+        },
+        "\/v1\/account\/sources\/:lastModified?": {
+            "GET": {
+                "summary": "Get all source information",
+                "description": " Gets all source (host + data stream) information",
+                "operationId": "GetAllSourceInformation",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/account\/sources": {
+            "PUT": {
+                "summary": "Set source metadata",
+                "description": " Sets one or more source metadata",
+                "operationId": "SetSourceMetadata",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/metrics": {
+            "GET": {
+                "summary": "Get list of active metrics",
+                "description": "\n          Get the list of actively reporting metrics from a given time until now. This endpoint is not available in the Python and Ruby libraries.\n        ",
+                "operationId": "GetListOfActiveMetrics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "[[POSIX_timestamp, numeric_value], ...]",
+                        "in": "query",
+                        "description": "\n              \n              Note that the timestamp should be in seconds, must be current, and the numeric value is a 32bit float gauge-type value.\n            \n          "
+                    }
+                ]
+            }
+        },
+        "\/api\/v1\/events": {
+            "POST": {
+                "summary": "Post an Event",
+                "description": "\n          This end point allows you to post events to the stream. You can tag them, set priority and event aggregate them with other events.\n        ",
+                "operationId": "PostAnEvent",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\n    \/api\/{version}\/actions": {
+            "\n    GET": {
+                "summary": "Get Actions (Alerts) List",
+                "description": "\n    Returns a list of actions (alerts) that have been generated for your account.",
+                "operationId": "GetActionsAlertsList",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "Only include actions generated later than this timestamp. Format is UNIX time."
+                    },
+                    {
+                        "name": "to",
+                        "in": "query",
+                        "description": "Only include actions generated prior to this timestamp. Format is UNIX time."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limits the number of returned results to the specified quantity."
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Offset for listing."
+                    },
+                    {
+                        "name": "checkids",
+                        "in": "query",
+                        "description": "Comma-separated list of check identifiers. Limit results to actions generated from these checks."
+                    },
+                    {
+                        "name": "contactids",
+                        "in": "query",
+                        "description": "Comma-separated list of contact identifiers. Limit results to actions sent to these contacts."
+                    },
+                    {
+                        "name": "status",
+                        "in": "query",
+                        "description": "Comma-separated list of statuses. Limit results to actions with these statuses."
+                    },
+                    {
+                        "name": "via",
+                        "in": "query",
+                        "description": "Comma-separated list of via mediums. Limit results to actions with these mediums."
+                    }
+                ]
+            }
+        },
+        "\/metrics\/definitions": {
+            "": {
+                "summary": "Available metrics",
+                "description": "Determine which metrics are available to return historical data for, for a specific subject (device or service) over a specific time range.\n",
+                "operationId": "AvailableMetrics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "query",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "subjectId",
+                        "in": "query",
+                        "description": "The ID of the subject to get the definitions for, e.g. a device ID."
+                    },
+                    {
+                        "name": "start",
+                        "in": "query",
+                        "description": "The UTC date string for the start time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T00:00:00Z"
+                    },
+                    {
+                        "name": "end",
+                        "in": "query",
+                        "description": "The UTC date string for the end time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T23:59:59Z"
+                    }
+                ]
+            }
+        },
+        "\/metrics\/dynamicgraphs\/": {
+            "": {
+                "summary": "Dynamic metrics",
+                "description": "Return historical metrics data, for a devices and\/or services that match a search or regex style inventory filter search over a specific time range.\n",
+                "operationId": "DynamicMetrics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "query",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "inventoryFilter",
+                        "in": "query",
+                        "description": "A regular expression that will return all devices or services that match the pattern."
+                    },
+                    {
+                        "name": "ids",
+                        "in": "query",
+                        "description": "List of inventory IDs"
+                    },
+                    {
+                        "name": "names",
+                        "in": "query",
+                        "description": "Human-readable names of a device or service"
+                    },
+                    {
+                        "name": "start",
+                        "in": "query",
+                        "description": "The UTC date string for the start time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T00:00:00Z"
+                    },
+                    {
+                        "name": "end",
+                        "in": "query",
+                        "description": "The UTC date string for the end time range in format YYYY-MM-DDTHH:mm:SSZ e.g. 2013-09-15T23:59:59Z"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "Specify whether to return only devices, services or all."
+                    }
+                ]
+            }
+        },
+        "\/actions": {
+            "POST": {
+                "summary": "Create Action",
+                "description": "Create a new Action.",
+                "operationId": "CreateAction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "action_name\n        \n        \n            required\n            Display name for the Action.\n        \n    \n    \n        \n        action_url\n        \n        \n            required\n            URL to be invoked for action execution.\n        \n    \n    \n ",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "GET": {
+                "summary": "List Actions",
+                "description": "List of all Actions.",
+                "operationId": "ListActions",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "maintenance_id\n        \n        \n            string\n            Unique ID generated by the server. This can be used as an identifier.\n        \n                \n    \n        \n        display_name\n        \n        \n            string\n            Displa",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/actions\/{action_id}": {
+            "PUT": {
+                "summary": "Update Action",
+                "description": "Update an existing Action.",
+                "operationId": "UpdateAction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "action_name\n        \n        \n            required\n            Display name for the Action.\n        \n    \n    \n        \n        action_url\n        \n        \n            required\n            URL to be invoked for action execution.\n        \n    \n    \n ",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
