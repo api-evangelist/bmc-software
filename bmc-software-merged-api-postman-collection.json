@@ -1,5 +1,5 @@
 {
-    "id": "98a2e82a9c51225b7ac15a129e22a3a6",
+    "id": "c02e30622325efe7004c4c90bfcab972",
     "name": "BMC Software Merged API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "c9b9b8d6eecd75eaf489a925ec56a464",
+            "id": "fe39ad60b41a9dd933fd39a72cfc02f2",
             "name": "Account Resource",
             "url": "https\/account",
             "description": "Information about the authorized account.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "67ac2e764f86d87a61d682f9d5cfbfee",
+            "id": "fe8e6419bef4470129bb2f58ec59d94a",
             "name": "Events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to}",
             "url": "https\/events?message={message}&amp;severity={severity}&amp;timestamp_utc_from={timestamp_utc_from}&amp;timestamp_utc_to={timestamp_utc_to} ",
             "description": "Gets a list of events for the current user.\t\t\t",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "bf97768ea0e15c9348f50ca7d405c02c",
+            "id": "22a89cc8ba6f262fdb342b28ce36a36b",
             "name": "Custom Events",
             "url": "https\/custom_events ",
             "description": "Creates new custom event.\t\t\t",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "afb65b85965fb5ab90945830b5dbe732",
+            "id": "814e2143278bcacd4610d9bfe69b0b15",
             "name": "Custom Events",
             "url": "https\/custom_events\/all?fromUtc={fromUtc}&amp;toUtc={toUtc} ",
             "description": "Gets all custom events using optional filter.\t\t\t",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "8301adf2c3c9d45b32e4eb66752a8bdc",
+            "id": "0308b7f341619ab665b079f7f9d5eaf5",
             "name": "Custom_events {id}",
             "url": "https\/custom_events\/{id} ",
             "description": "Gets custom event by Id.\t\t\t",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "5d1ac239678f2cc9bda58557360e800d",
+            "id": "10e799d621bc94c46d883ad4ed7b424b",
             "name": "Custom_events {id}",
             "url": "https\/custom_events\/{id} ",
             "description": "Updates custom event.\t\t\t",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "d4a1978df4ede5b5e97abeeee7ffaf47",
+            "id": "183cd8bb142ea1143c45fa59b0c220fa",
             "name": "Custom_events {id}",
             "url": "https\/custom_events\/{id} ",
             "description": "Deletes custom event.\t\t\t",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "3dc48c288f85aeda39aa28956d5d08d8",
+            "id": "b091b3d8a5b7ad13112d8df3f815e8e2",
             "name": "Get AWS Integration Status",
             "url": "https\/v1\/account\/aws\/status",
             "description": " Gets AWS status",
@@ -190,11 +190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "19d8d52f70108adff34ddde8130824db",
+            "id": "fa1de2593215e4001cb2b8dc86e9e6df",
             "name": "Get all available action types",
             "url": "https\/v1\/actions",
             "description": "Gets all known action types",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "80c50e5b1297874e264ddd77f2ef4e13",
+            "id": "69d311b8b2ae3f897f2f41ce94294ee9",
             "name": "Get all installed actions",
             "url": "https\/v1\/actions\/installed",
             "description": "Gets all actions that are installed for the project",
@@ -236,11 +236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "b0cb77580c1da6787a93ae621eee3771",
+            "id": "c3bee806c8c8afecfae0526c0eb41a12",
             "name": "Install action",
             "url": "https\/v1\/actions\/installed",
             "description": "Installs an action",
@@ -259,11 +259,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "4254edaf6bdbcefd309e030cd4b34a4f",
+            "id": "ed8f364a4eb32b903e26e2a60e73261b",
             "name": "Get details of an installed action",
             "url": "https\/v1\/actions\/installed\/:actionId",
             "description": "Gets a single action definition",
@@ -290,11 +290,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "1a7c05689e49b5e4caed48a1ff1735f3",
+            "id": "9e427ea8b3e84cbd8e6261005913d101",
             "name": "Uninstall action",
             "url": "https\/v1\/actions\/installed\/:actionId",
             "description": "Uninstalls an action and remove it from the associated alarms(s).",
@@ -313,11 +313,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "0cf93ebb4e544dcdf3ce8ebe221d3933",
+            "id": "595f53923147a5bccbd2a50b85888652",
             "name": "Get all alarms using an action",
             "url": "https\/v1\/actions\/installed\/:actionId\/alarms",
             "description": "Get alarms that are using this action installed for the project",
@@ -336,11 +336,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "d369fe3758365ab7021c667653f8c242",
+            "id": "038cf5dec82e39c345c423e44f938837",
             "name": "Get action",
             "url": "https\/v1\/actions\/:action",
             "description": "Gets a single action type",
@@ -367,11 +367,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "4a55b7cbe70cbe1542523ffe2ef489d5",
+            "id": "3d2de262ca1167d8f299bfc98273970e",
             "name": "Get All Alarms",
             "url": "https\/v1\/alarms",
             "description": " Get all of the Alarms",
@@ -390,11 +390,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "9aefbbc2b4237d85d99242e0e2caedfb",
+            "id": "c0e12bd03b8a97fed8b9d846e935851b",
             "name": "Create Alarm",
             "url": "https\/v1\/alarms",
             "description": "Create an Alarm",
@@ -421,11 +421,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "f0675c98d0e6b456857bf037206426b1",
+            "id": "66e6bce8451dff74a4b5bb25f69c610b",
             "name": "Get Alarm by Id",
             "url": "https\/v1\/alarm\/:alarmId",
             "description": "Retrieves a single alarm",
@@ -452,11 +452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "232475a95398fd8c13fd32d6adf90a7d",
+            "id": "af4f2c88dcb1176e51a320cefc8705a1",
             "name": "Update Alarm",
             "url": "https\/v1\/alarm\/:alarmId",
             "description": " Update an Alarm",
@@ -483,11 +483,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "a7b8bb8cf05855c1a18afc6e15a04aa9",
+            "id": "933a95d7b81ea85ca9c50541066f620c",
             "name": "Delete Alarm",
             "url": "https\/v1\/alarm\/:alarmId",
             "description": "Deletes an alarm",
@@ -514,11 +514,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "9705e323ad7459ca44cb22c60ad05c01",
+            "id": "a4bd83e1e8773986a38a168ba397b2ca",
             "name": "Get Alarms by Name",
             "url": "https\/v1\/alarms\/search",
             "description": "Retrieves alarms by name",
@@ -545,11 +545,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "d2c08d69ca59f7e6a105f73bee08b18a",
+            "id": "a196ac2c6179e2c710420a436b88a204",
             "name": "Create Alarm",
             "url": "https\/v2\/alarms",
             "description": "Create an Alarm",
@@ -568,11 +568,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "1a761427450db37d707e21a872dee07c",
+            "id": "51c79e8beee5e3e5b9ea1b94c3b53fa7",
             "name": "Get All Alarms",
             "url": "https\/v2\/alarms",
             "description": "Get all of the Alarms",
@@ -591,11 +591,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "5b5a50f61c3978b769f90ab980d68eaf",
+            "id": "cf90d41eda496026c969b24967452793",
             "name": "Update Alarm",
             "url": "https\/v2\/alarms\/:alarmId",
             "description": "Updates an alarm",
@@ -622,11 +622,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "e9dc504682ae0e9e95012df7fded1e8f",
+            "id": "d770a00c52d55c22dae991b0334f84df",
             "name": "Get Alarm by Id",
             "url": "https\/v2\/alarms\/:alarmId",
             "description": "Retrieves a single alarm",
@@ -653,11 +653,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "f0abb071e0b57180f8795beeadc24cd9",
+            "id": "0ed0989c9e1a9b2dcd95cd6d783ae563",
             "name": "Delete Alarm",
             "url": "https\/v2\/alarms\/:alarmId",
             "description": "Deletes an alarm",
@@ -684,11 +684,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "42e78db383ed7e0d182d924d114358ad",
+            "id": "9c47d30ea622c8f30a0375153d800415",
             "name": "Perform batch",
             "url": "https\/v1\/batch",
             "description": "Allows making an arbitrary set of API calls.    All calls are made in parallel.\nThe query string parameter <em>?series<\/em> can be used to override this behavior and call the API in series stopping at the first error.",
@@ -707,11 +707,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "d7a4fc516a09812b2d55661a9e313aca",
+            "id": "62ad3dfa970dd5351844252b88fc5b76",
             "name": "Delete Mobile Device",
             "url": "https\/v1\/mobile-devices\/:userDeviceId",
             "description": "Deletes a device from a user",
@@ -738,11 +738,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "5c25a615431838912ebaba41d93e52bd",
+            "id": "fd106dc712bd581969fbc1b1720df9f9",
             "name": "Delete Account Mobile Device",
             "url": "https\/v1\/account\/mobile-devices\/:accountDeviceId",
             "description": "Deletes a device from an account",
@@ -769,11 +769,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "c02a03414f2a06f41e9b5cb397587c7d",
+            "id": "b573ae3a62d1df35149839b6c0b3d037",
             "name": "Get All Account Mobile Devices",
             "url": "https\/v1\/account\/mobile-devices",
             "description": "Gets all of the devices for an account",
@@ -792,11 +792,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "649d7e20101ac675020ece0f019bcdaa",
+            "id": "8da479e867ea593de2c093941923f122",
             "name": "List dataset",
             "url": "https\/v1\/datasets\/*",
             "description": " *",
@@ -815,11 +815,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "1980dd7fe32068188ed6034fea6a5c4a",
+            "id": "15860047a96330d63bb4bc67ff015c9c",
             "name": "Create event",
             "url": "https\/v1\/events",
             "description": "Creates an event. Every event occurrence is persisted to the database as a RawEvent. Based on the EventFingerprint, a new Event will be created or an existing one will be de-duplicated.",
@@ -838,11 +838,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "f0a112ea02608b8723083b887875c72d",
+            "id": "0d8c3939ea8de767a723203259804319",
             "name": "List events",
             "url": "https\/v1\/events",
             "description": "Searches for events in the specified organization.",
@@ -861,11 +861,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "19b25b6b639c5622c2477a475434ea97",
+            "id": "6a15778241919f8ed32f5018a61eb79a",
             "name": "List raw events",
             "url": "https\/v1\/events\/raw",
             "description": "Queries all event occurrences (raw events) for the specified organization.",
@@ -884,11 +884,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "4bbb887a6cd8f5f69f5b3fddf20ed178",
+            "id": "d14ac37b640f44bfd34b53ab856ad179",
             "name": "Get event",
             "url": "https\/v1\/events\/:event_id",
             "description": "Returns the event with the specified event id from the database.",
@@ -907,11 +907,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "ab1cc5646326a94da92c6c23fea2f3ca",
+            "id": "2baf781346e82136f825a9430e7d3da8",
             "name": "Get raw events",
             "url": "https\/v1\/events\/:event_id\/raw",
             "description": "Returns all of the event occurrences (raw events) for the specified event.",
@@ -930,11 +930,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "695ea5db50ecd4bc7fd8aa93b1025158",
+            "id": "2d86dc2344d7841acdb199c0437050f1",
             "name": "Get All Hostgroups",
             "url": "https\/v1\/hostgroups",
             "description": "Get all of the Hostgroups in your account",
@@ -953,11 +953,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "42d2fc3f26116345673cb6b9b507ae29",
+            "id": "c503f555e48cc833935a75f0237f0b7e",
             "name": "Create Hostgroup",
             "url": "https\/v1\/hostgroups",
             "description": "Create a Hostgroup",
@@ -976,11 +976,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "ca4ee3a3fbd192f0ec314b83caec253a",
+            "id": "02fb6ef728a8ced11a68d0293e7fdf4e",
             "name": "Search Hostgroups",
             "url": "https\/v1\/hostgroups\/search",
             "description": "Searches the hostgroups in your account",
@@ -1007,11 +1007,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "e856600d2bc3ddc29b378b54ba57437f",
+            "id": "eb69b3eeb3d4fe9838fa65e6c1d6c6fb",
             "name": "Get Hostgroup by Id",
             "url": "https\/v1\/hostgroups\/:hostgroupId",
             "description": "Retrieves a single hostgroup by its id",
@@ -1038,11 +1038,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "fb68eda61e2f6e508e7bb98251f416a0",
+            "id": "6656761671527d199c90cedb5998f775",
             "name": "Update Hostgroup",
             "url": "https\/v1\/hostgroups\/:hostgroupId",
             "description": "Update a Hostgroup",
@@ -1061,11 +1061,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "6463c5d88289bfffc043fb7ee48bcfe7",
+            "id": "d8a0ab1baf60b218edf7a3feaa3d49e2",
             "name": "Delete Hostgroup",
             "url": "https\/v1\/hostgroups\/:hostgroupId",
             "description": "Delete an hostgroup",
@@ -1092,11 +1092,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "2529a40ea735db5be6431f4893d7fdf6",
+            "id": "232acc5bc6af38956326c8b72c8fc883",
             "name": "Registration",
             "url": "https\/v1\/meter\/:meterName\/registration",
             "description": "Register a Meter with TrueSight Pulse",
@@ -1123,11 +1123,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "18d961383747d50f0d15f6ecb1820be4",
+            "id": "b2ab85b64692a75dc44f32a375312e00",
             "name": "Add measures",
             "url": "https\/v1\/measurements",
             "description": "Adds measurement readings to the data store.",
@@ -1154,11 +1154,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "c51b832207cb8c8e610b45b38d36c580",
+            "id": "6eb714f8f656a36943a1b0858ea624dd",
             "name": "Create metric",
             "url": "https\/v1\/metrics",
             "description": "Creates a new metric",
@@ -1185,11 +1185,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "d721347f695a60e636726cb28eef59d4",
+            "id": "b5e2bbdc9a6f84846c533e1123a26003",
             "name": "Get Metrics",
             "url": "https\/v1\/metrics",
             "description": "Retrieves the list of metrics in a project.",
@@ -1208,11 +1208,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "b9c76e571f92541adc2f8199e34aea4e",
+            "id": "50601b5b8b17bc42932dbb906623294f",
             "name": "Create metrics batch",
             "url": "https\/v1\/batch\/metrics",
             "description": "Creates metrics, but in a batch",
@@ -1231,11 +1231,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "ab0ae9523ed2a8cee9eb3a9b93774405",
+            "id": "88ad8f086e2a5d2dbeb12507923f597b",
             "name": "Update metrics batch",
             "url": "https\/v1\/batch\/metrics",
             "description": "Updates a batch of metrics",
@@ -1262,11 +1262,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "ac2e0fd5af7ba8ff8b26830f9f135aa3",
+            "id": "cc8c2e2f9b0f704f3f0b2e2be62199ed",
             "name": "Get measures",
             "url": "https\/v1\/measurements\/:metric",
             "description": "Retrieves measurement readings.",
@@ -1285,11 +1285,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "16cce9244dda84b5f3c96ed778e5882c",
+            "id": "5be24b3dea7471604703e408b5b3cd1e",
             "name": "Get measures batch",
             "url": "https\/v1\/measurementsBatch",
             "description": "Same as \/v1\/measurements\/:metric except that an array of query objects are passed in the body.",
@@ -1308,11 +1308,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "b52851ab21a296a56daddfc0565ec692",
+            "id": "f6d77c3ed5afe2a489e9d96f71bc88de",
             "name": "Remove metric",
             "url": "https\/v1\/metrics\/:metric",
             "description": " Removes a metric from the account.\n Note that a metric will not deleted if it has been alarmed unless that <em>removeAlarms<\/em>\n flag is added.",
@@ -1331,11 +1331,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "4872c7b89368bab4f34c7cb390eb6d5d",
+            "id": "882d02cb0acdb3b0735852bfce71d36b",
             "name": "Get actions for a dashboard",
             "url": "https\/v1\/metrics\/dashactions\/:dashboardSetId",
             "description": " Retrieves the needed configuration changes for a dashboard\n Returns an an array of objects, each has the following properties:",
@@ -1354,11 +1354,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "ede7f5a69d01b17bac243e1735e4f047",
+            "id": "c530b9eb74b4e78903df7ffa8098ab12",
             "name": "Perform dashboard actions",
             "url": "https\/v1\/metrics\/dashactions\/:dashboardSetId",
             "description": " Performs necessary actions for a dashboard.\n Only enables or adds metrics at this time.",
@@ -1377,11 +1377,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "475138b2257609068f5353bfa395e573",
+            "id": "29ed012552f87650f68c9d29d81abd58",
             "name": "Update metric",
             "url": "https\/v1\/metrics\/:metricName",
             "description": "Updates a metric",
@@ -1408,11 +1408,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "bb13a217ff9f5200592d7310ded962d0",
+            "id": "ca2218c1466d9bc6aaf2bb78a135caca",
             "name": "Get all plugins",
             "url": "https\/v1\/plugins",
             "description": "Gets all known plugin definitions",
@@ -1431,11 +1431,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "cd3076e06693293ecaa3561c341c0290",
+            "id": "2b5ced815448e93ac73cfab8acdd4344",
             "name": "Get plugin components",
             "url": "https\/v1\/plugins\/:plugin\/components",
             "description": "Finds the components associated with an installed plugin including metrics and dashboards",
@@ -1454,11 +1454,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "1a0fc6843a2392371085b40668af19f1",
+            "id": "7d638a9e08356be241dcd21136d179b0",
             "name": "Get installed plugins",
             "url": "https\/v1\/plugins\/installed",
             "description": "Gets plugins that are installed for the project",
@@ -1477,11 +1477,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "0249a93dd52bec16d9834034cfddcd7a",
+            "id": "15250c1c28a7a6aabd0e385f9cfe2af9",
             "name": "Install or update plugin",
             "url": "https\/v1\/plugins\/installed\/:plugin",
             "description": "Installs a plugin",
@@ -1500,11 +1500,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "a083da3def2c9ad5e7aa8ab210925753",
+            "id": "6118f00ed379764f19d830d9e3a30bed",
             "name": "Uninstall plugin",
             "url": "https\/v1\/plugins\/installed\/:plugin",
             "description": "Uninstalls a plugin and optionally removes related dashboard(s) and metric(s).",
@@ -1523,11 +1523,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "e06f50fe974d9dec9cebc08cd69da191",
+            "id": "b4d0388002ecdad22748348547194c00",
             "name": "Add private plugin",
             "url": "https\/v1\/plugins\/private\/:plugin\/:org\/:repo",
             "description": "Adds or updates a private plugin.\nA plugin exists as a repository in Github.\nBy adding a private plugin the plugin will appear on your settings -&gt; plugins tab just like any other plugin which\ncan then be installed and\/or added to a relay.\nIf a private plugin has the same name as an existing plugin it will override the existing plugin within your account.",
@@ -1554,11 +1554,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "7f46274da4d57d0bbca75f326a48db0f",
+            "id": "a8a66dccb17bd250173c1eecafa32885",
             "name": "Remove private plugin",
             "url": "https\/v1\/plugins\/private\/:plugin",
             "description": "Removes a private plugin from your account. Use this function after adding a private plugin to make your private\nplugin disappear from available plugins in your settings.",
@@ -1585,11 +1585,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "636c41f1487d100bc9110cf398a30e0a",
+            "id": "cf135a444fdac4aa43df40ba969baa0f",
             "name": "Get plugin",
             "url": "https\/v1\/plugins\/:plugin",
             "description": "Gets a single plugin definition",
@@ -1616,11 +1616,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "b58f1fb2854bbb3381ef1e9bdadd9945",
+            "id": "461d4bdf74d184e10e3e4cb50fb9e6e6",
             "name": "Set Relay Heartbeat",
             "url": "https\/v1\/relays\/heartbeat",
             "description": "Updates the &#39;lastHeardFrom&#39; field of the relay configuration\nReturns the current system time in UNIX epoch of server.",
@@ -1639,11 +1639,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "4f40f5b66fdf44e2f61bcfa74374488d",
+            "id": "844cc6e717fb4891198cc7176ef1c7f1",
             "name": "Get All Relay Configurations",
             "url": "https\/v1\/relays",
             "description": "Gets the configurations for all visible relays",
@@ -1662,11 +1662,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "36ab1b1b84982b202fa30369dd03b92b",
+            "id": "f91ab288ee09ff5db55bd7456a8cf235",
             "name": "Get Relay Configuration",
             "url": "https\/v1\/relays\/:relay\/config",
             "description": "Retrieves config for a relay host if changed\nIf no timestamp specified, configuration data is always returned\nIf config has not changed the string &#39;not-modified&#39; is returned",
@@ -1685,11 +1685,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "df38d2e38e691e160da561d2650eaa5b",
+            "id": "421f92b19859bde7bbbbbbd71f46140f",
             "name": "Set Relay Configuration",
             "url": "https\/v1\/relays\/:relay\/config",
             "description": " Stores configuration for a relay.\n The relay will gather the configuration on the next poll and reconfigure itself as needed.",
@@ -1708,11 +1708,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "b74b4273e4e83428ccb8a42b1409d377",
+            "id": "e473e2d53bf61419e97bb5deb76e4901",
             "name": "Toggle relay",
             "url": "https\/v1\/relays\/:relay\/toggle",
             "description": "Set a relay to be disabled or enabled",
@@ -1746,11 +1746,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "005ab7e021edf7334417b7c9fd013485",
+            "id": "5570cb4750d0ca2a5b3f2f8a81d87bfe",
             "name": "Toggle relay plugin",
             "url": "https\/v1\/relays\/:relay\/togglePlugin",
             "description": "Sets a relay plugin to be disabled or enabled",
@@ -1777,11 +1777,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "1b61d713b6ce477ee42da735e376535c",
+            "id": "7a6b316e0edc51934d0bc77285841850",
             "name": "Add relay output",
             "url": "https\/v1\/relays\/:relay\/output",
             "description": "Adds output messages to the relay.\nUsed by the relay to communicate output from execution and commands",
@@ -1800,11 +1800,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "cad2176bfca3bf22881be74c9cd6f2d6",
+            "id": "368a60fe849f3f364ed89319cc5e5eaa",
             "name": "Clear relay output",
             "url": "https\/v1\/relays\/:relay\/output",
             "description": "Wipes the logged output from the relay up to present.",
@@ -1823,11 +1823,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "34e17cf00306aa3db7039c4ba8c334ae",
+            "id": "147c217edf22ca93c36ed7cbdaeb8a1c",
             "name": "Get relay output",
             "url": "https\/v1\/relays\/:relay\/output\/:since",
             "description": "Queries for relay output messages.",
@@ -1846,11 +1846,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "f5e43fa29dfedcfe0219b2077047fd74",
+            "id": "9ffbe8c4ada0e4d2c575e196bb21f3b7",
             "name": "Remove Old Sources By Name",
             "url": "https\/v1\/sources\/byName",
             "description": "Remove Old Sources from your account by using a list of names",
@@ -1877,11 +1877,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "a7ff18843bcefc752ed03fe6625ed541",
+            "id": "54588cfa6d68ee782e1783b6177280d8",
             "name": "Get all source information",
             "url": "https\/v1\/account\/sources\/:lastModified?",
             "description": " Gets all source (host + data stream) information",
@@ -1900,11 +1900,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "21f50ab6460acbc10030a336731c1613",
+            "id": "5720a4ee71e6db8be17990c8ccd30d67",
             "name": "Set source metadata",
             "url": "https\/v1\/account\/sources",
             "description": " Sets one or more source metadata",
@@ -1923,11 +1923,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "a1f33904735a80a9f58feeee2eba8ef8",
+            "id": "0ab942ed54a83109942224b527a9d5fe",
             "name": "Get list of active metrics",
             "url": "https\/metrics",
             "description": "\n          Get the list of actively reporting metrics from a given time until now. This endpoint is not available in the Python and Ruby libraries.\n        ",
@@ -1954,11 +1954,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "3c6db0a68a23d1feb0d0b7b4c00d9fd3",
+            "id": "dbcfa7656245327912ce2c9812388ee2",
             "name": "Post an Event",
             "url": "https\/api\/v1\/events",
             "description": "\n          This end point allows you to post events to the stream. You can tag them, set priority and event aggregate them with other events.\n        ",
@@ -1977,11 +1977,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "7bbd88d92c4b46f0a8387677a9c28210",
+            "id": "3de6319e838ed015e5e3eb4a675239f9",
             "name": "Get Actions (Alerts) List",
             "url": "https\n    \/api\/{version}\/actions",
             "description": "\n    Returns a list of actions (alerts) that have been generated for your account.",
@@ -2057,11 +2057,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "cc1ab8364d2a259411dd1c49e0f51c93",
+            "id": "c940310411046251043ef15651a42f03",
             "name": "Available metrics",
             "url": "https\/metrics\/definitions",
             "description": "Determine which metrics are available to return historical data for, for a specific subject (device or service) over a specific time range.\n",
@@ -2109,11 +2109,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "411f3fdc4fc13ea05de6cb6e11a9263d",
+            "id": "96f7d151294733aec1e092b7ee73f706",
             "name": "Dynamic metrics",
             "url": "https\/metrics\/dynamicgraphs\/",
             "description": "Return historical metrics data, for a devices and\/or services that match a search or regex style inventory filter search over a specific time range.\n",
@@ -2182,11 +2182,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "b4a0521e594057a3e212b6923db55e20",
+            "id": "da3abe950dd31e148c6ad4c41994998b",
             "name": "Create Action",
             "url": "https\/actions",
             "description": "Create a new Action.",
@@ -2213,11 +2213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "cebdafea9bf87bd993d3f46a133018a0",
+            "id": "148ccff2f3aeb245bef8b8ab683a3ff7",
             "name": "List Actions",
             "url": "https\/actions",
             "description": "List of all Actions.",
@@ -2244,11 +2244,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         },
         {
-            "id": "a704c9739ff6ce0fd8d13771d2103c9d",
+            "id": "36ffba503de31b8534af1d2b5b5fd88b",
             "name": "Update Action",
             "url": "https\/actions\/{action_id}",
             "description": "Update an existing Action.",
@@ -2275,7 +2275,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "98a2e82a9c51225b7ac15a129e22a3a6",
+            "collectionId": "c02e30622325efe7004c4c90bfcab972",
             "rawModeData": ""
         }
     ]
