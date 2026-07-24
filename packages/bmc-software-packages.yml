@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/ctm-python-client/
+packages:
+- language: python
+  registry: pypi
+  name: ctm-python-client
+  url: https://pypi.org/project/ctm-python-client/
+  install: pip install ctm-python-client
+  version: 2.6.3
+  official: true
+  description: 'Official Control-M (BMC Software) Python library to programmatically
+    design, schedule, and run Control-M workflows via the Automation API.'
+  repository: https://github.com/controlm/ctm-python-client
+  license: BSD-3-Clause
+- language: other
+  registry: vscode-marketplace
+  name: ctm-vscode-extension
+  url: https://github.com/controlm/ctm-vscode-extension
+  install: Install from the Visual Studio Code Marketplace
+  official: true
+  description: 'Official Control-M Visual Studio Code extension for authoring and
+    testing Control-M jobs.'
+  repository: https://github.com/controlm/ctm-vscode-extension
+  license: Apache-2.0

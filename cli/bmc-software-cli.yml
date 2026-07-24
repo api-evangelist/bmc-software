@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/controlm/automation-api-quickstart
+name: Control-M Automation API CLI
+binary: ctm
+description: 'The Control-M Automation API command-line interface (ctm) drives the
+  Control-M Automation API from the shell — building, deploying, running, and managing
+  workflows (Jobs-as-Code), provisioning agents, and managing configuration.'
+docs: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
+install:
+- method: npm
+  command: npm install -g ctm-cli.tgz
+  note: 'The ctm-cli.tgz package is downloaded from a Control-M endpoint or the
+    Automation API quickstart and installed via npm.'
+- method: docker
+  command: docker pull controlm/workbench
+  note: 'Control-M Workbench for Docker bundles the CLI and a standalone environment.'
+command_groups:
+- name: build
+  description: Validate and build workflow (job) definitions in JSON or Python.
+- name: deploy
+  description: Deploy workflow definitions to Control-M.
+- name: run
+  description: Run jobs and workflows on demand, monitor status, and retrieve output.
+- name: provision
+  description: Install and manage Control-M agents and images.
+- name: config
+  description: Manage Control-M configuration (servers, agents, host groups).
+- name: session
+  description: Authenticate and manage login sessions/tokens against the environment.
+notes: 'Authentication is via login (username/password) or an API token session
+  against a Control-M Automation API endpoint; the endpoint host is environment/tenant
+  specific.'

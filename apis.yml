@@ -1,8 +1,28 @@
 aid: bmc-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bmc-software.png
 name: BMC Software
-description: 'BMC Software is a company surfaced as a portfolio company of bain-capital-ventures, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'BMC Software is an enterprise software company providing automation, service
+  management, and mainframe solutions for large organizations. Its flagship products
+  include Control-M for application and data workflow orchestration, the BMC AMI portfolio
+  (Automated Mainframe Intelligence) for DevOps, operations, storage, security, and
+  data protection, and BMC Helix for IT service and operations management. BMC exposes
+  programmatic access primarily through the Control-M Automation API (a REST API with
+  Jobs-as-Code), an official Python client (ctm-python-client), a command-line
+  interface (ctm), and a VS Code extension, all maintained under the github.com/controlm
+  organization. Approximately 80% of the Forbes Global 100 rely on BMC technology
+  across financial services, healthcare, manufacturing, telecommunications, and the
+  public sector.'
 url: https://raw.githubusercontent.com/api-evangelist/bmc-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,16 +33,65 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Infrastructure
-apis: []
+- Automation
+- Workflow Orchestration
+- Mainframe
+- IT Service Management
+- DevOps
+- Enterprise Software
+apis:
+- name: Control-M Automation API
+  description: 'REST API for Control-M that lets developers programmatically build,
+    schedule, run, and manage application and data workflows as code (Jobs-as-Code),
+    including deploy, run, provision, and config services.'
+  humanURL: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
+  properties:
+  - type: GettingStarted
+    url: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
+  - type: Documentation
+    url: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Installation
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bmc-software-domain-security.yml
 - type: Website
   url: https://www.bmc.com/
+- type: DeveloperPortal
+  url: https://developer.bmc.com/
+- type: Documentation
+  url: https://docs.bmc.com/docs/dashboard.action
+- type: GettingStarted
+  url: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
+- type: Support
+  url: https://www.bmc.com/support/support-central.html
+- type: Blog
+  url: https://www.bmc.com/blogs/
+- type: Pricing
+  url: https://www.bmc.com/forms/pricing-request.html
+- type: SignUp
+  url: https://www.bmc.com/product-trials-demos.html
+- type: TermsOfService
+  url: https://www.bmc.com/legal/terms-of-use.html
+- type: PrivacyPolicy
+  url: https://www.bmc.com/legal/privacy-policy.html
+- type: GitHubOrganization
+  url: https://github.com/controlm
+- type: Packages
+  url: packages/bmc-software-packages.yml
+- type: SDKs
+  url: packages/bmc-software-packages.yml
+- type: CLI
+  url: cli/bmc-software-cli.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
