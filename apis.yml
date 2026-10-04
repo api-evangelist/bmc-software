@@ -1,4 +1,5 @@
 aid: bmc-software
+
 deliveryModel:
   model: saas
   open_source: false
@@ -10,6 +11,7 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -21,30 +23,38 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bmc-software.png
+
 name: BMC Software
-description: 'BMC Software is an enterprise software company providing automation, service
-  management, and mainframe solutions for large organizations. Its flagship products
-  include Control-M for application and data workflow orchestration, the BMC AMI portfolio
-  (Automated Mainframe Intelligence) for DevOps, operations, storage, security, and
-  data protection, and BMC Helix for IT service and operations management. BMC exposes
-  programmatic access primarily through the Control-M Automation API (a REST API with
-  Jobs-as-Code), an official Python client (ctm-python-client), a command-line
-  interface (ctm), and a VS Code extension, all maintained under the github.com/controlm
-  organization. Approximately 80% of the Forbes Global 100 rely on BMC technology
-  across financial services, healthcare, manufacturing, telecommunications, and the
-  public sector.'
+
+description: BMC Software is an enterprise software company providing automation, service management, and mainframe solutions for large organizations.
+  Its flagship products include Control-M for application and data workflow orchestration, the BMC AMI portfolio (Automated Mainframe Intelligence)
+  for DevOps, operations, storage, security, and data protection, and BMC Helix for IT service and operations management. BMC exposes programmatic
+  access primarily through the Control-M Automation API (a REST API with Jobs-as-Code), an official Python client (ctm-python-client), a command-line
+  interface (ctm), and a VS Code extension, all maintained under the github.com/controlm organization. Approximately 80% of the Forbes Global
+  100 rely on BMC technology across financial services, healthcare, manufacturing, telecommunications, and the public sector.
+
 url: https://raw.githubusercontent.com/api-evangelist/bmc-software/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: vc-portfolio
+
 x-backed-by:
 - bain-capital-ventures
 - insight-partners
+
 x-tier: stub
+
 x-tier-reason: portfolio-lead
+
 specificationVersion: '0.23'
+
 created: '2026-07-17'
+
 modified: '2026-07-18'
+
 tags:
 - Company
 - AI Infrastructure
@@ -54,6 +64,7 @@ tags:
 - ITSM
 - DevOps
 - Enterprise Software
+
 tags_raw:
 - Company
 - Ai Infrastructure
@@ -63,23 +74,26 @@ tags_raw:
 - IT Service Management
 - DevOps
 - Enterprise Software
-apis:
-- name: Control-M Automation API
-  description: 'REST API for Control-M that lets developers programmatically build,
-    schedule, run, and manage application and data workflows as code (Jobs-as-Code),
-    including deploy, run, provision, and config services.'
-  humanURL: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
-  properties:
-  - type: GettingStarted
-    url: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
-  - type: Documentation
-    url: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Installation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: WellKnown
+  url: well-known/bmc-software-well-known.yml
+- type: Hosts
+  url: hosts/bmc-software-hosts.yml
+- type: Vendors
+  url: vendors/bmc-software-vendors.yml
+- type: TrustCenter
+  url: https://www.bmc.com/corporate/trust-center/trust-center.html
+- type: Newsroom
+  url: https://www.bmc.com/newsroom/newsroom.html
+- type: ChangeLog
+  url: https://www.bmc.com/newsroom/releases/mibmc.html
 - type: DomainSecurity
   url: security/bmc-software-domain-security.yml
 - type: Website
@@ -110,8 +124,35 @@ common:
   url: packages/bmc-software-packages.yml
 - type: CLI
   url: cli/bmc-software-cli.yml
+
+apis:
+- name: Control-M Automation API
+  description: REST API for Control-M that lets developers programmatically build, schedule, run, and manage application and data workflows as
+    code (Jobs-as-Code), including deploy, run, provision, and config services.
+  humanURL: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
+  properties:
+  - type: GettingStarted
+    url: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide
+  - type: Documentation
+    url: https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Installation
+  aid: bmc-software:control-m-automation-api
+
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-04'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://docs.bmc.com/mcp
+    status: 403
+  - url: https://www.bmc.com/
+    status: 200
