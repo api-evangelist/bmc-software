@@ -53,7 +53,7 @@ specificationVersion: '0.23'
 
 created: '2026-07-17'
 
-modified: '2026-07-18'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -82,6 +82,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.bmc.com/blogs/feed/
+  type: BlogRSS
 - type: WellKnown
   url: well-known/bmc-software-well-known.yml
 - type: Hosts
