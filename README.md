@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BMC Software is a company surfaced as a portfolio company of bain-capital-ventures, insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure. This profile is a lead awaiting the enrichment pipeline.
+BMC Software is an enterprise software company providing automation, service management, and mainframe solutions for large organizations. Its flagship products include Control-M for application and data workflow orchestration, the BMC AMI portfolio (Automated Mainframe Intelligence) for DevOps, operations, storage, security, and data protection, and BMC Helix for IT service and operations management. BMC exposes programmatic access primarily through the Control-M Automation API (a REST API with Jobs-as-Code), an official Python client (ctm-python-client), a command-line interface (ctm), and a VS Code extension, all maintained under the github.com/controlm organization. Approximately 80% of the Forbes Global 100 rely on BMC technology across financial services, healthcare, manufacturing, telecommunications, and the public sector.
 
-Backed by: bain-capital-ventures, insight-partners — https://www.bmc.com/
+**Areas:** Company · AI Infrastructure · Automation · Workflow Orchestration · Mainframe · ITSM · DevOps · Enterprise Software
+
+## BMC Software on APIs.io
+
+Everything profiled for BMC Software is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bmc-software/](https://apis.io/providers/bmc-software/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Control-M Automation API](https://apis.io/apis/bmc-software/control-m-automation-api/) — REST API for Control-M that lets developers programmatically build, schedule, run, and manage application and data workflows as code (Jobs-as-Code),…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bmc Software Domain Security](https://apis.io/security/bmc-software/bmc-software-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bmc.com/)
+- [Documentation](https://docs.bmc.com/docs/dashboard.action)
+- [Getting started](https://docs.bmc.com/docs/display/public/workloadautomation/Control-M+Automation+API+-+Getting+Started+Guide)
+- [Pricing](https://www.bmc.com/forms/pricing-request.html)
+- [Sign up](https://www.bmc.com/product-trials-demos.html)
+- [Support](https://www.bmc.com/support/support-central.html)
+- [Changelog](https://www.bmc.com/newsroom/releases/mibmc.html)
+- [Blog](https://www.bmc.com/blogs/)
+- [Trust centre](https://www.bmc.com/corporate/trust-center/trust-center.html)
+- [Terms of service](https://www.bmc.com/legal/terms-of-use.html)
+- [Privacy policy](https://www.bmc.com/legal/privacy-policy.html)
+- [GitHub](https://github.com/controlm)
+
+## API Evangelist rating
+
+**Kin Score 30.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 52.6 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bmc-software/](https://apis.io/providers/bmc-software/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BMC Software: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bmc-software/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
